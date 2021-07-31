@@ -1,0 +1,57 @@
+.food-item {
+  width: 250pt;
+  height: 250pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .image {
+    width: 200pt;
+    height: 200pt;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+  }
+
+  .custom-button {
+    width: 80%;
+    opacity: 0.7;
+    position: relative;
+    top: 10px;
+    display: flexbox;
+  }
+
+  &:hover {
+    .image {
+      opacity: 0.8;
+    }
+
+    .custom-button {
+      opacity: 0.85;
+      display: flex;
+    }
+  }
+
+  .food-footer {
+    width: 200pt;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+    .name {
+      width: 50%;
+      margin-bottom: 15px;
+      text-align: left;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .price {
+      width: 50%;
+      margin-bottom: 15px;
+      text-align: right;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+  }
+}

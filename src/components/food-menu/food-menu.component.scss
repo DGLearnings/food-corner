@@ -1,0 +1,22 @@
+.food-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: left;
+  
+    .title {
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+  
+    .preview {
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+    }
+    .name {
+      width: 100%;
+      margin-bottom: 15px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+  }

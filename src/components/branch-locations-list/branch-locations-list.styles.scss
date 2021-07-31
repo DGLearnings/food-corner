@@ -1,0 +1,20 @@
+.branchlist {
+  width: 350pt;
+  height: 300pt;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  position: relative;
+
+  .name {
+    width: 350pt;
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .image {
+    width: 200pt;
+    height: 200pt;
+    margin-bottom: 25px;
+  }
+}
